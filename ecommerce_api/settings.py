@@ -51,8 +51,8 @@ INSTALLED_APPS = [
     'corsheaders',
     # Local apps
     'users',
-    # 'customers',
-    # 'products',
+    'customers',
+    'products',
     # 'orders',
 ]
 
@@ -178,3 +178,6 @@ SIMPLE_JWT = {
 
 # CORS settings
 CORS_ALLOW_ALL_ORIGINS = True
+
+# remove slash from urls
+APPEND_SLASH = False
